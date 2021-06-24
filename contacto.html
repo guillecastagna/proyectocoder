@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <!-- CSS -->
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/normalize.css"> 
+        <meta name="keywords" content="HTML, CSS, RESPONSIVE, LOL, BOOTSTRAP"> 
+    <title>Mi Primer Desafio</title>
+</head>
+
+<body class="body contenido">
+    <header class="header">
+        <div class="contenedor">
+            <section class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Cer<span class="logo__bold">Veza</span></h1>
+                </a>
+    
+                    <nav class="navegacion navegationpx">
+                        <a href="index.html" class="navegacion__enlace">Inicio</a></li>
+                        <a href="producto.html" class="navegacion__enlace">Productos</a> </li>
+                        <a href="informacion.html" class="navegacion__enlace">Informacion</a></li>
+                        <a href="contacto.html" class="navegacion__enlace">Contactos</a></li>
+                    </nav>
+            </section>
+        </div> 
+        <div  class="buscador">
+    
+            <input type="search" name="buscar" size="20" maxlength="4">
+          
+            <input type="submit" value="Buscar">
+        </div>
+    
+    </header>
+
+
+    <div data-aos="zoom-in">
+        <section class="contacto__info sombra">
+            <div>Nombre
+                <input type="name" name="Nombre" placeholder="Nombre">
+            </div>
+            <div> Apellido
+                <input type="apellido" name="Apellido" placeholder="Apellido">
+            </div>
+            <div> Correo
+                <input type="Correo" name="Correo" placeholder="@correo.com.ar">
+            </div>
+            <div>
+            <p>Sexo</p>
+                <select name="Sexo" id="Sexo">
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Helicóptero">Helicóptero Apache</option>
+                </select>
+            </div>
+            <div> Comentario <br>
+                <textarea name="Informacion" id="" cols="25" rows="10"></textarea>
+            </div>
+                <form action="button">
+                    <input type="Checkbox" name="Aceptar" value="1">Recibir informacion<br>
+                    <input type="Submit" value="Enviar Formulario">
+                    <input type="Reset" value="Limpiar formulario">
+                </form>
+        </section>
+     </div>
+
+ 
+
+<footer class="footer">
+
+</footer>
+
+
+    
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script> 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>    
+
+</body>
+</html>
